@@ -1,0 +1,127 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.home_banner{
+    background: url('../images/banner-BPM-2021-03@2x.png');
+    background-size: cover;
+    width: 100%;
+    height: 820px;
+}
+
+.home_banner .group7{
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+}
+.home_banner .group7 img{
+    width: 409px;
+    height: 222px;
+    opacity: 1;
+}
+/**font: normal normal medium 40px/48px "Roboto", sans-serif; **/
+.home_banner .title_banner{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 30px;
+}
+.home_banner .title_banner2{
+    display: block;
+    margin: auto;
+    width: 35%;
+    text-align: center;
+    font-size: 35px;
+    line-height: 41px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.home_banner .apresentation{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+.home_banner .apresentation img{
+    width: 28px;
+    height: 26px;
+    margin-top: 10px;
+    margin-left: 8px;
+    opacity: 1;
+}
+.home_banner .apresentation button{
+    display: flex;
+    background: #DF4B62 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 6px; 
+    opacity: 1;
+    width: 302px;
+    height: 48px;
+}
+.home_banner .apresentation button:hover{
+    box-shadow: 0 0 30px;
+    background-color: #363636;
+    cursor: pointer;
+    transition: 0.75s;
+}
+.home_banner .apresentation button p{
+    margin-left: 12px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 4px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.description{
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    width: 1366px;
+}
+.description_grid_config{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 540px;
+}
+.description .description_grid_config .text_description{
+    text-align: left;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #707070;
+}
+.description .description_grid_config .text_description strong{
+    font-weight: 500;
+}
+.description .description_grid_config .video_description{
+    padding-top: 30px;
+    border-radius: 20px;
+    margin-left: 15px;
+} 
+.title_screenshots{
+    text-align: center;
+    font-size: 35px;
+    line-height: 42px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    color: #2A5AB4;
+    opacity: 1;
+}
